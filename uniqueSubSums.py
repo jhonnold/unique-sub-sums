@@ -13,8 +13,9 @@ def uniqueSubSums(array):
     return True
  
 NUM_PEOPLE = int(sys.argv[1])
+MAX_AGE = int(sys.argv[2])
 
-for s in itertools.combinations(range(1, 61), NUM_PEOPLE):
+for s in itertools.combinations(range(1, MAX_AGE + 1), NUM_PEOPLE):
     if uniqueSubSums(s):
         print(s)
         break

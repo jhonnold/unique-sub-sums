@@ -33,3 +33,20 @@ No counter example has been found - No Proof yet here either. This program shoul
 ## 7 People
 
 [1, 2, 4, 24, 40, 48, 56]
+
+Needs 44 as max age -> [20, 31, 37, 40, 42, 43, 44]
+
+
+## 6 People
+
+Needs 24 as max age -> [11, 17, 20, 22, 23, 24]
+
+
+## 5 People
+
+Needs 13 as max age -> [3, 6, 11, 12, 13]
+
+
+## 4 People
+
+Needs 7 as max age -> [3, 5, 6, 7]
