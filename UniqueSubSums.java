@@ -12,11 +12,16 @@ public class UniqueSubSums {
   }
 
   public void run() {
+    int count = 0;
     final ExecutorService pool = Executors.newFixedThreadPool(10);
     CombinationsGenerator cg = new CombinationsGenerator(45, 7);
 
     while (cg.hasNext()) {
+      count++;
       pool.execute(new SubSumThread(cg.next()));
+      if (count % 10000 == 0) {
+        System.out.println(count);
+      }
     }
 
     pool.shutdown();
