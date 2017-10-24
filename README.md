@@ -27,8 +27,9 @@ Due to the Pigeon Hole Principle, 2 of the non-empty subsets must sum to the sam
 
 ## 8 People
 
-No counter example has been found - No Proof yet here either. This program should brute force it (excludes duplicates and assumes order doesn't matter).
+Impossible at max age of 60.
 
+Needs 85 as max age -> [20, 40, 72, 78, 81, 83, 84, 85]
 
 ## 7 People
 
